@@ -1,0 +1,68 @@
+<ion-view view-title="闲暇时光">
+    <ion-content>
+        <form>
+            <div class="list">
+
+                <label class="item item-input item-select">
+                    <div class="input-label">
+                        日期
+                    </div>
+                    <input id="date" type="date">
+                </label>
+
+                <label class="item item-input item-select">
+                    <div class="input-label">
+                        开始时间
+                    </div>
+                    <input id="start-time" type="time">
+                </label>
+
+                <label class="item item-input item-select">
+                    <div class="input-label">
+                        结束时间
+                    </div>
+                    <input id="end-time" type="time">
+                </label>
+
+                <label class="item item-input item-select">
+                    <div class="input-label">
+                        人数
+                    </div>
+                    <select id="people">
+                        <option selected>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </label>
+                <!--
+                <label class="item item-input item-select">
+                    <div class="input-label">
+                        最低预算
+                    </div>
+                    <input id="cost-low" type="number" value="50">
+                </label>
+
+                <label class="item item-input item-select">
+                    <div class="input-label">
+                        最高预算
+                    </div>
+                    <input id="cost-high" type="number" value="150">
+                </label>
+                -->
+                <label class="item item-input item-select">
+                    <div class="input-label">
+                        出行方式
+                    </div>
+                    <select id="trip-mode">
+                        <option value="special-car" selected>专车接送</option>
+                    </select>
+                </label>
+
+                <button class="button button-full button-positive" type="submit">
+                    提交
+                </button>
+            </div>
+        </form>
+
+    </ion-content>
+</ion-view>
